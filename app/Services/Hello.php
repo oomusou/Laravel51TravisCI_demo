@@ -8,12 +8,10 @@
 
 namespace App\Services;
 
-
 class Hello
 {
-
     /**
-     * Say "Hello World"
+     * 回傳 "Hello World"
      *
      * @return string
      */

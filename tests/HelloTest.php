@@ -5,21 +5,14 @@ use App\Services\Hello;
 class HelloTest extends TestCase
 {
     /**
-     * A basic functional test example.
+     * 待測物件
      *
-     * @return void
-     */
-
-    /**
      * @var Hello
      */
     protected $target;
 
     public function testSay()
     {
-//        $this->visit('/')
-//             ->see('Laravel 5');
-
         // Arrange
         $this->target = new Hello();
         $expected = "Hello World";
